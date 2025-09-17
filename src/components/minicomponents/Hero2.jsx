@@ -1,6 +1,6 @@
 import React from 'react';
 import { MoveRight } from 'lucide-react';
-import heroAbout from '../../assets/imgs/heroABout.jpg';
+import heroAbout from '../../../public/assets/imgs/heroAbout.jpg';
 
 const Hero2 = () => {
   return (
