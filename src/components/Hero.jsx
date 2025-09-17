@@ -2,12 +2,13 @@ import React from "react";
 import { Facebook, Instagram, Linkedin, Youtube } from "lucide-react";
 import heroPng from "../assets/imgs/aatHero.png";
 import Hero1 from "./minicomponents/Hero1";
+import Hero2 from "./minicomponents/Hero2";
 
 const Hero = () => {
   return (
     <>
     <div className="w-full min-h-screen flex items-center justify-center p-4 bg-gray-100">
-      <div className="max-w-[1600px] w-full mx-auto flex flex-col md:flex-row bg-red-200 rounded-xl overflow-hidden shadow-lg">
+      <div className="max-w-[1400px] w-full mx-auto flex flex-col md:flex-row bg-red-200 rounded-xl overflow-hidden shadow-lg">
         {/* Image Section */}
         <div className="w-full md:w-1/2 flex justify-center items-center p-8">
           <div className="w-full max-w-md rounded-lg p-4 ">
@@ -64,6 +65,7 @@ const Hero = () => {
       </div>
     </div>
     <Hero1 />
+    <Hero2 />
     </>
 
   );
