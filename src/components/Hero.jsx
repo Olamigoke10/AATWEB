@@ -15,7 +15,7 @@ const Hero = () => {
             <img 
               src={heroPng}
               alt="Accounting professionals" 
-              className="w-full h-auto rounded-md"
+              className="w-full h-auto rounded-md md:block hidden"
             />
           </div>
         </div>
