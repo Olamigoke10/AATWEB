@@ -7,10 +7,10 @@ const Navbar = () => {
   const [isServicesOpen, setIsServicesOpen] = useState(false);
 
   const services = [
-    { name: 'Web Development', icon: <Settings size={16} /> },
-    { name: 'UI/UX Design', icon: <Home size={16} /> },
-    { name: 'Mobile Apps', icon: <Phone size={16} /> },
-    { name: 'Consulting', icon: <User size={16} /> },
+    { name: 'NIL', icon: <Settings size={16} /> },
+    { name: 'NIL', icon: <Home size={16} /> },
+    { name: 'NIL', icon: <Phone size={16} /> },
+    { name: 'NIL', icon: <User size={16} /> },
   ];
 
   return (
