@@ -9,48 +9,66 @@ import CloudOrbitDemo from "./minicomponents/CloudOrbitDemo";
 const Hero = () => {
   return (
     <>
-   <section className="relative bg-gradient-to-br from-surface to-primary/5 lg:grid lg:h-screen lg:place-content-center">
-  <div className="mx-auto max-w-screen-xl px-6 py-20 sm:px-8 md:grid md:grid-cols-2 md:items-center md:gap-12">
-    {/* --- Left text content --- */}
-    <div className="max-w-xl space-y-6">
-      <h1 className="text-4xl sm:text-5xl font-extrabold text-text-base tracking-tight leading-tight">
-        Understand user flow and
-        <span className="text-primary block">increase conversions</span>
-      </h1>
+      <section className="relative bg-gradient-to-br from-surface to-primary/5 lg:grid lg:min-h-screen lg:place-content-center">
+        <div className="mx-auto max-w-screen-xl px-6 py-20 sm:px-8 md:grid md:grid-cols-2 md:items-center md:gap-12">
+          {/* --- Left text content --- */}
+          <div className="max-w-xl space-y-6">
+            <h1 className="text-4xl sm:text-5xl font-extrabold text-text-base tracking-tight leading-tight">
+              AAT 
+              <span className="text-primary block">ACCOUNTING</span>
+            </h1>
 
-      <p className="text-lg text-text-muted/90">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, nisi. 
-        Natus, provident accusamus impedit minima harum corporis iusto.
-      </p>
+            <p className="text-lg text-text-muted/90">
+              To empower businesses and individuals with proactive,
+              tax-centric financial services delivering maximum savings and
+              compliance confidence through precision, planning, and expert insight.
+            </p>
 
-      <div className="flex flex-wrap gap-4 pt-2">
-        <a
-          href="#"
-          className="inline-block rounded-xl bg-primary px-6 py-3 font-semibold text-white shadow-lg shadow-primary/30 transition hover:scale-105 hover:bg-primary/90"
-        >
-          Get Started
-        </a>
+            <div className="flex flex-wrap gap-4 pt-2">
+              <a
+                href="#"
+                className="inline-block rounded-xl bg-primary px-6 py-3 font-semibold text-white shadow-lg shadow-primary/30 transition hover:scale-105 hover:bg-primary/90"
+              >
+                Get Started
+              </a>
 
-        <a
-          href="#"
-          className="inline-block rounded-xl border border-border-light dark:border-border-dark 
-                     px-6 py-3 font-semibold text-text-base transition hover:bg-surface/80 hover:text-primary"
-        >
-          Learn More
-        </a>
-      </div>
-    </div>
+              <a
+                href="#"
+                className="inline-block rounded-xl border border-border-light dark:border-border-dark 
+                         px-6 py-3 font-semibold text-text-base transition hover:bg-surface/80 hover:text-primary"
+              >
+                Learn More
+              </a>
+            </div>
 
-    {/* --- Right Orbit --- */}
-    <div className="mt-12 md:mt-0 flex justify-center">
-      <CloudOrbitDemo />
-    </div>
-  </div>
-</section>
+            {/* Trust indicators */}
+            <div className="flex flex-wrap gap-6 pt-6 text-sm text-text-muted">
+              <div className="flex items-center gap-2">
+                <Clock className="h-4 w-4 text-primary" />
+                <span>Fast & Efficient Service</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <Baby className="h-4 w-4 text-primary" />
+                <span>Easy to Work With</span>
+              </div>
+            </div>
+          </div>
 
+          {/* --- Right Orbit --- */}
+          <div className="mt-12 md:mt-0 flex justify-center">
+            <CloudOrbitDemo />
+          </div>
+        </div>
 
-    <Hero1 />
-    <Hero2 />
+        {/* Decorative elements */}
+        <div className="absolute inset-0 -z-10 overflow-hidden">
+          <div className="absolute -top-20 -right-20 h-64 w-64 rounded-full bg-primary/10 blur-3xl"></div>
+          <div className="absolute -bottom-20 -left-20 h-64 w-64 rounded-full bg-secondary/10 blur-3xl"></div>
+        </div>
+      </section>
+
+      <Hero1 />
+      <Hero2 />
     </>
   );
 };
