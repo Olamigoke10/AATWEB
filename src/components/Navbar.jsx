@@ -83,7 +83,7 @@ const Navbar = () => {
               Contact
             </a>
 
-            <Button className="ml-4">Get Started</Button>
+            <Button className="ml-4 bg-chart-2">Get Started</Button>
           </div>
 
           {/* Mobile menu button */}
