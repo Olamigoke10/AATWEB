@@ -98,7 +98,7 @@ const Hero = () => {
                   alt="Professional accounting services" 
                   className="w-full h-auto object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent animate-breathe"></div>
               </div>
               
               {/* Floating elements */}

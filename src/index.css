@@ -126,3 +126,23 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+@keyframes slowZoom {
+    0% { transform: scale(1); }
+    100% { transform: scale(1.1); }
+}
+
+.animate-slow-zoom {
+    animation: slowZoom 10s linear infinite;
+    transform-origin: center;
+}
+
+
+@keyframes breathe {
+    0%, 100% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.03); opacity: 0.9; }
+}
+
+.animate-breathe {
+    animation: breathe 4s ease-in-out infinite;
+}

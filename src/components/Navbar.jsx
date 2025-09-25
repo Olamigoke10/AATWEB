@@ -10,6 +10,7 @@ import {
   DropdownMenuItem,
 } from "@/components/ui/dropdown-menu";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -36,20 +37,21 @@ const Navbar = () => {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-1">
-            <a
-              href="#home"
+            <Link
+              to="/"
               className="px-3 py-2 rounded-md text-sm font-medium transition-colors hover:text-primary hover:bg-muted flex items-center"
             >
               <Home size={18} className="mr-1" />
               Home
-            </a>
-            <a
+            </Link>
+            <Link
+            to="/about"
               href="#about"
               className="px-3 py-2 rounded-md text-sm font-medium transition-colors hover:text-primary hover:bg-muted flex items-center"
             >
               <User size={18} className="mr-1" />
               About
-            </a>
+            </Link>
 
             {/* Services Dropdown */}
             <DropdownMenu>
