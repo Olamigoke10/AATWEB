@@ -77,13 +77,13 @@ const Navbar = () => {
               </DropdownMenuContent>
             </DropdownMenu>
 
-            <a
-              href="#contact"
+            <Link
+              to="/contact"
               className="px-3 py-2 rounded-md text-sm font-medium transition-colors hover:text-primary hover:bg-muted flex items-center"
             >
               <Phone size={18} className="mr-1" />
               Contact
-            </a>
+            </Link>
 
             <Button className="ml-4 bg-chart-2">Get Started</Button>
           </div>
