@@ -46,7 +46,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-3 text-muted-foreground">
                 <Mail className="size-4 text-primary" />
-                <span>info@aataccounting.com</span>
+                <span>info@aataccountinginc.ca</span>
               </li>
               <li className="flex items-center gap-3 text-muted-foreground">
                 <MapPin className="size-4 text-primary" />
