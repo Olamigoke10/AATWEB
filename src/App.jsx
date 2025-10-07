@@ -7,6 +7,7 @@ import About from './pages/About'
 import Footer from './components/Footer'
 import Contact from './pages/Contact'
 import { inject } from '@vercel/analytics';
+import ScrollToTop from './components/minicomponents/scrollToTop'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
   return (
     <>
     <ThemeProvider >
+      <ScrollToTop />
       <Navbar />
       <Routes>
      <Route path="/"  element={<Home />}/>
