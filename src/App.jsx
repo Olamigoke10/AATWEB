@@ -6,11 +6,19 @@ import { Route, Routes } from 'react-router-dom'
 import About from './pages/About'
 import Footer from './components/Footer'
 import Contact from './pages/Contact'
+import { inject } from '@vercel/analytics';
+
 
 function App() {
+
+  React.useEffect(() => {
+    inject();
+  }, []);
+
   return (
     <>
     <ThemeProvider >
+      <Analytics />
       <Navbar />
       <Routes>
      <Route path="/"  element={<Home />}/>
