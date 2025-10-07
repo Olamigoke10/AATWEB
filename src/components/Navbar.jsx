@@ -1,6 +1,7 @@
 // src/components/Navbar.jsx
 import React, { useState } from "react";
 import { Menu, X, Home, User, Settings, Phone, ChevronDown } from "lucide-react";
+import Logo from '../assets/imgs/AATLogo.png'
 import { ModeToggle } from "./minicomponents/ModeToggle";
 
 import {
@@ -29,8 +30,8 @@ const Navbar = () => {
           {/* Logo + Theme toggle */}
           <div className="flex-shrink-0 flex items-center space-x-3">
             <div className="text-2xl font-bold flex items-center">
-              <Settings className="mr-2" size={28} />
-              AAT
+              {/* <Settings className="mr-2" size={28} /> */}
+              <img src={Logo} alt=""  size={5} className="w-fit h-10 rounded-md"/>
             </div>
             <ModeToggle />
           </div>
