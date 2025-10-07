@@ -18,7 +18,6 @@ function App() {
   return (
     <>
     <ThemeProvider >
-      <Analytics />
       <Navbar />
       <Routes>
      <Route path="/"  element={<Home />}/>
