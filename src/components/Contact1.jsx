@@ -119,8 +119,8 @@ const Contact1 = () => {
               <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M15 11a3 3 0 11-6 0 3 3 0 016 0z' />
             </svg>
           </div>
-          <h3 className='font-semibold text-lg mb-2'>Visit Us</h3>
-          <p className='text-gray-600'>123 Business Street<br />City, State 12345</p>
+          <h3 className='font-semibold text-lg mb-2 text-chart-2'>Visit Us</h3>
+          <p className='text-muted-foreground'>101-9908 Franklin Ave T9H2K5 Fort Mcmurray Alberta</p>
         </div>
 
         <div className='text-center p-6 bg-white rounded-lg shadow-md'>
@@ -129,8 +129,15 @@ const Contact1 = () => {
               <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z' />
             </svg>
           </div>
-          <h3 className='font-semibold text-lg mb-2'>Call Us</h3>
-          <p className='text-gray-600'>+1 (555) 123-4567<br />Mon-Fri 9am-6pm</p>
+          <h3 className='font-semibold text-lg mb-2 text-chart-2'>Call Us</h3>
+          <a
+                  href="tel:+1234567890"
+                  className="text-muted-foreground"
+                > 
+                  <span>+1 587 276 2765</span>
+                  <br />
+                  <p className=''>Call Us</p>
+                </a>
         </div>
 
         <div className='text-center p-6 bg-white rounded-lg shadow-md'>
@@ -139,8 +146,13 @@ const Contact1 = () => {
               <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z' />
             </svg>
           </div>
-          <h3 className='font-semibold text-lg mb-2'>Email Us</h3>
-          <p className='text-gray-600'>info@company.com<br />support@company.com</p>
+          <h3 className='font-semibold text-lg mb-2 text-chart-2'>Email Us</h3>
+          <a
+                  href="mailto:info@aataccountinginc.ca"
+                  className="text-muted-foreground"
+                >
+                  info@aataccountinginc.ca
+                </a>
         </div>
       </div>
     </div>
