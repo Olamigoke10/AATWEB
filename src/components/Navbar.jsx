@@ -54,7 +54,7 @@ const Navbar = () => {
             </Link>
 
             {/* Services Dropdown */}
-            <DropdownMenu>
+            {/* <DropdownMenu>
               <DropdownMenuTrigger asChild>
                 <Button variant="ghost" className="flex items-center space-x-1">
                   <Settings size={18} />
@@ -75,7 +75,7 @@ const Navbar = () => {
                   </DropdownMenuItem>
                 ))}
               </DropdownMenuContent>
-            </DropdownMenu>
+            </DropdownMenu> */}
 
             <Link
               to="/contact"
@@ -119,7 +119,7 @@ const Navbar = () => {
               </a>
 
               {/* Services inside mobile */}
-              <DropdownMenu>
+              {/* <DropdownMenu>
                 <DropdownMenuTrigger asChild>
                   <Button
                     variant="ghost"
@@ -145,7 +145,7 @@ const Navbar = () => {
                     </DropdownMenuItem>
                   ))}
                 </DropdownMenuContent>
-              </DropdownMenu>
+              </DropdownMenu> */}
 
               <Link
                 to="/contact"
