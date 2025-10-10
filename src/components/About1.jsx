@@ -11,16 +11,11 @@ const About1 = () => {
         </h2>
         <div className="space-y-4">
           <p className="text-lg leading-relaxed">
-            AAT Accounting is the premier online resource for the Association of
-            Accounting Technicians. It provides vital information on
-            qualifications, training, and membership. For aspiring and current
-            finance professionals, the site is an essential hub for career
-            development, exams, and connecting with the global accounting
-            community.
+            At AAT Accounting, we provide expert bookkeeping, accounting, and tax advisory services for businesses, individuals, and landlords across Canada. We go beyond the numbers, offering clear advice, proactive support, and strategies that deliver real results..
           </p>
           <p className="text-lg leading-relaxed">
-           AAT-Accounting is your online resource for finance training, qualifications,
-           and professional accounting support
+           Looking to reduce your taxes, stay compliant, and avoid penalties? Our tax planning services help you keep more of your money while planning for the future.
+           Partner with AAT Accounting and let us help you grow your wealth and achieve your financial goals.
           </p>
 
           {/* Features Grid */}
@@ -29,28 +24,28 @@ const About1 = () => {
               <div className="p-2 bg-chart-2 rounded-full">
                 <Timer className="h-5 w-5 text-white" />
               </div>
-              <span className="font-medium">Experienced Teachers</span>
+              <span className="font-medium">Task Planning</span>
             </div>
 
             <div className="flex items-center space-x-3 p-3 bg-background rounded-lg">
               <div className="p-2 bg-chart-1 rounded-full">
                 <Users className="h-5 w-5 text-white" />
               </div>
-              <span className="font-medium">Qualified Staff</span>
+              <span className="font-medium">Business Tax</span>
             </div>
 
             <div className="flex items-center space-x-3 p-3 bg-background rounded-lg">
               <div className="p-2 bg-chart-3 rounded-full">
                 <Award className="h-5 w-5 text-white" />
               </div>
-              <span className="font-medium">Certified Programs</span>
+              <span className="font-medium">Financial Reporting</span>
             </div>
 
             <div className="flex items-center space-x-3 p-3 bg-background rounded-lg">
               <div className="p-2 bg-chart-4 rounded-full">
                 <BookOpen className="h-5 w-5 text-white" />
               </div>
-              <span className="font-medium">Modern Curriculum</span>
+              <span className="font-medium">Payroll</span>
             </div>
           </div>
         </div>
