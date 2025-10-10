@@ -11,7 +11,7 @@ const About1 = () => {
         </h2>
         <div className="space-y-4">
           <p className="text-lg leading-relaxed">
-            AAT Accounting is the premier online resource for the Association of
+            AAT New Accounting is the premier online resource for the Association of
             Accounting Technicians. It provides vital information on
             qualifications, training, and membership. For aspiring and current
             finance professionals, the site is an essential hub for career
