@@ -11,8 +11,9 @@ const About1 = () => {
         </h2>
         <div className="space-y-4">
           <p className="text-lg leading-relaxed">
-            Welcome to AAT Accounting, the leading accountants in Canada, dedicated to providing expert tax, accounting, and financial services to individuals and businesses. With years of experience and a team of highly qualified accountants, we specialise in delivering tailored solutions for personal tax returns, business accounting, VAT, payroll, and corporate tax planning.
-            At AAT Accounting, we provide expert bookkeeping, accounting, and tax advisory services for businesses, individuals, and landlords across Canada. We go beyond the numbers, offering clear advice, proactive support, and strategies that deliver real results..
+            Welcome to AAT Accounting, one of Canada’s leading accounting firms, AAT Accounting provides expert tax, accounting, and financial services for individuals, businesses, and landlords. 
+            With a team of highly qualified professionals, we specialise in personal tax returns, business accounting, VAT, payroll, and corporate tax planning.
+            We go beyond the numbers, offering clear advice, proactive support, and strategies that deliver real results for your finances and business growth.
           </p>
           <p className="text-lg leading-relaxed">
            Looking to reduce your taxes, stay compliant, and avoid penalties? Our tax planning services help you keep more of your money while planning for the future.
