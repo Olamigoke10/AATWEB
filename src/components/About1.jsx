@@ -7,7 +7,7 @@ const About1 = () => {
       {/* Text Content */}
       <div className="flex flex-col justify-center px-4 space-y-6">
         <h2 className="font-extrabold text-3xl md:text-4xl text-chart-2">
-          About AAT
+          Accounting That Makes a Difference
         </h2>
         <div className="space-y-4">
           <p className="text-lg leading-relaxed">
