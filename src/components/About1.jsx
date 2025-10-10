@@ -11,7 +11,7 @@ const About1 = () => {
         </h2>
         <div className="space-y-4">
           <p className="text-lg leading-relaxed">
-            Welcome to AAT Accounting, one of Canada’s leading accounting firms, AAT Accounting provides expert tax, accounting, and financial services for individuals, businesses, and landlords. 
+            Welcome to AAT Accounting, one of leading accounting firms in Canada. AAT Accounting provides expert tax, accounting, and financial services for individuals, businesses, and landlords. 
             With a team of highly qualified professionals, we specialise in personal tax returns, business accounting, VAT, payroll, and corporate tax planning.
             We go beyond the numbers, offering clear advice, proactive support, and strategies that deliver real results for your finances and business growth.
           </p>
